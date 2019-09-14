@@ -1,2 +1,2 @@
 # PowerCodersRepos
-It contains the whole projects for three months for  bootcamp sessions.
+It will contains the whole projects for three months for bootcamp sessions and courses.
