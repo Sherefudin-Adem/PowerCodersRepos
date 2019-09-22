@@ -1,46 +1,46 @@
 *{
-	padding: 0;
-	margin: 0;
-	font-family: sans-serif;
-	list-style:none;
-	text-decoration:none;
+   padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+   list-style:none;
+   text-decoration:none;
 }
 .middle{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	background: black;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   background: black;
 	
 }
 .menu{
-	width: 500px;
-	overflow: hidden;
+   width: 500px;
+   overflow: hidden;
 	
 	
 }
 .item{
-	border-top: 2px solid #605;
-	overflow: hidden;
+   border-top: 2px solid #605;
+   overflow: hidden;
 	
 }
 .btn{
-	display: block;
-	padding: 20px 20px;
-	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	color: #6dd5ed;
-	position: relative;
-	font-size: 30px;
+   display: block;
+   padding: 20px 20px;
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   color: #6dd5ed;
+   position: relative;
+   font-size: 30px;
 }
 .btn::before{
-	content: "";
-	position: absolute;
-	width: 14px;
-	height: 14px;
-	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	left: 20px;
-	bottom: -7px;
-	transform: rotate(45deg)
+   content: "";
+   position: absolute;
+   width: 14px;
+   height: 14px;
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   left: 20px;
+   bottom: -7px;
+   transform: rotate(45deg)
 	
 }
 .btn i{
@@ -49,41 +49,41 @@
 	
 }
 .smenu{
-	overflow: hidden;
-	transition: max-height 0.3s;
-	max-height: 0;
-	text-transform: uppercase;
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-    font-size: 20px;
-  	font-family: "Poppins", sans-serif;
+   overflow: hidden;
+   transition: max-height 0.3s;
+   max-height: 0;
+   text-transform: uppercase;
+   background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
   	
 	
 }
 .smenu a{
-	display: block;
-	padding: 16px 26px;
-	font-size: 14px;
-	margin: 4px 0;
+   display: block;
+   padding: 16px 26px;
+   font-size: 14px;
+   margin: 4px 0;
 	
 	
 }
 .smenu a:before{
-	content: "";
-	position: absolute;
-	width: 18px;
-	height: 100%;
-	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-	left: 0;
-	top: 0;
-	margin: 0 -18px;
-	
+   content: "";
+   position: absolute;
+   width: 18px;
+   height: 100%;
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+   left: 0;
+   top: 0;
+   margin: 0 -18px;
+   
 }
 .smenu a:hover:before{
-	opacity: 1;
+   opacity: 1;
 	
 }
 .item:target .smenu{
-	max-height: 10em;
+   max-height: 10em;
 }
 
 
